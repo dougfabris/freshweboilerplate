@@ -1,0 +1,26 @@
+/* =============================================
+			VARIABLES
+============================================= */
+$black-color:#000000;
+$white-color:#ffffff;
+
+$base-size: 14;
+$family: 'Poppins', sans-serif;
+
+$normal-size: 60px;
+$big-size: $normal-size*2;
+$small-size: $normal-size/2;
+$min-size: $normal-size/4;
+
+@import "components/*";
+@import "helpers/*";
+
+body{
+	//font-family: 'Montserrat', sans-serif;
+	p{
+		// font-size:16px;
+		// line-height: 23px;
+		// margin:0;
+		// color:$gray-color;
+	}
+}
